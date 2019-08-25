@@ -91,9 +91,9 @@ public class A1Adept {
 		
 		// Output
 		System.out.println("Biggest: " + firstNames[indexBiggestSpender] + 
-				" " + lastNames[indexBiggestSpender] + " (" + spent[indexBiggestSpender] + ")");
+				" " + lastNames[indexBiggestSpender] + " (" + String.format("%.2f",spent[indexBiggestSpender]) + ")");
 		System.out.println("Smallest: " + firstNames[indexSmallestSpender] + 
-				" " + lastNames[indexSmallestSpender] + " (" + spent[indexSmallestSpender] + ")");
+				" " + lastNames[indexSmallestSpender] + " (" + String.format("%.2f",spent[indexSmallestSpender]) + ")");
 		System.out.println("Average: " + String.format("%.2f", average));
 	}
 	
